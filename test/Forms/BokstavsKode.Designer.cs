@@ -37,14 +37,14 @@
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.checkFraKode = new System.Windows.Forms.CheckBox();
+            this.checkTilKode = new System.Windows.Forms.CheckBox();
             this.StartBogstavTextBox = new System.Windows.Forms.TextBox();
             this.panel8 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.InputTextBox = new System.Windows.Forms.TextBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.checkTilKode = new System.Windows.Forms.CheckBox();
-            this.checkFraKode = new System.Windows.Forms.CheckBox();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel7.SuspendLayout();
@@ -153,6 +153,28 @@
             this.panel5.Size = new System.Drawing.Size(350, 380);
             this.panel5.TabIndex = 3;
             // 
+            // checkFraKode
+            // 
+            this.checkFraKode.AutoSize = true;
+            this.checkFraKode.Location = new System.Drawing.Point(85, 234);
+            this.checkFraKode.Name = "checkFraKode";
+            this.checkFraKode.Size = new System.Drawing.Size(63, 21);
+            this.checkFraKode.TabIndex = 5;
+            this.checkFraKode.Text = "Kode";
+            this.checkFraKode.UseVisualStyleBackColor = true;
+            this.checkFraKode.CheckedChanged += new System.EventHandler(this.checkFraKode_CheckedChanged);
+            // 
+            // checkTilKode
+            // 
+            this.checkTilKode.AutoSize = true;
+            this.checkTilKode.Location = new System.Drawing.Point(13, 234);
+            this.checkTilKode.Name = "checkTilKode";
+            this.checkTilKode.Size = new System.Drawing.Size(57, 21);
+            this.checkTilKode.TabIndex = 4;
+            this.checkTilKode.Text = "Text";
+            this.checkTilKode.UseVisualStyleBackColor = true;
+            this.checkTilKode.CheckedChanged += new System.EventHandler(this.checkTilKode_CheckedChanged);
+            // 
             // StartBogstavTextBox
             // 
             this.StartBogstavTextBox.Anchor = System.Windows.Forms.AnchorStyles.Top;
@@ -179,7 +201,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Lucida Handwriting", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(26, 23);
+            this.label3.Location = new System.Drawing.Point(12, 21);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(299, 28);
             this.label3.TabIndex = 1;
@@ -216,28 +238,6 @@
             this.label1.Size = new System.Drawing.Size(108, 36);
             this.label1.TabIndex = 0;
             this.label1.Text = "Input";
-            // 
-            // checkTilKode
-            // 
-            this.checkTilKode.AutoSize = true;
-            this.checkTilKode.Location = new System.Drawing.Point(13, 234);
-            this.checkTilKode.Name = "checkTilKode";
-            this.checkTilKode.Size = new System.Drawing.Size(142, 21);
-            this.checkTilKode.TabIndex = 4;
-            this.checkTilKode.Text = "Oversæt til koden";
-            this.checkTilKode.UseVisualStyleBackColor = true;
-            this.checkTilKode.CheckedChanged += new System.EventHandler(this.checkTilKode_CheckedChanged);
-            // 
-            // checkFraKode
-            // 
-            this.checkFraKode.AutoSize = true;
-            this.checkFraKode.Location = new System.Drawing.Point(13, 262);
-            this.checkFraKode.Name = "checkFraKode";
-            this.checkFraKode.Size = new System.Drawing.Size(96, 21);
-            this.checkFraKode.TabIndex = 5;
-            this.checkFraKode.Text = "Løs koden";
-            this.checkFraKode.UseVisualStyleBackColor = true;
-            this.checkFraKode.CheckedChanged += new System.EventHandler(this.checkFraKode_CheckedChanged);
             // 
             // BogstavsKode
             // 

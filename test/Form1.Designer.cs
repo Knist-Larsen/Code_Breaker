@@ -96,7 +96,7 @@
             this.btnSMS.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
             this.btnSMS.Size = new System.Drawing.Size(220, 60);
             this.btnSMS.TabIndex = 4;
-            this.btnSMS.Text = "  SMS";
+            this.btnSMS.Text = "  Nummer kode";
             this.btnSMS.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSMS.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSMS.UseVisualStyleBackColor = true;

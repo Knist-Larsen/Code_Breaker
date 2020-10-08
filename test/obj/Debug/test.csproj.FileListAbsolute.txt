@@ -26,3 +26,4 @@ C:\Users\nickl\Documents\GitHub\Code_Breaker\test\obj\Debug\test.csproj.Generate
 C:\Users\nickl\Documents\GitHub\Code_Breaker\test\obj\Debug\test.csproj.CoreCompileInputs.cache
 C:\Users\nickl\Documents\GitHub\Code_Breaker\test\obj\Debug\test.exe
 C:\Users\nickl\Documents\GitHub\Code_Breaker\test\obj\Debug\test.pdb
+C:\Users\nickl\Documents\GitHub\Code_Breaker\test\obj\Debug\test.Forms.NummerKode.resources

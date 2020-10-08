@@ -1,6 +1,6 @@
 ﻿namespace test.Forms
 {
-    partial class A_K
+    partial class NummerKode
     {
         /// <summary>
         /// Required designer variable.
@@ -37,8 +37,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.InputKode = new System.Windows.Forms.CheckBox();
             this.InputText = new System.Windows.Forms.CheckBox();
+            this.InputNumre = new System.Windows.Forms.CheckBox();
             this.textInput = new System.Windows.Forms.TextBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
@@ -59,7 +59,7 @@
             this.panel3.Location = new System.Drawing.Point(350, 0);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(100, 450);
-            this.panel3.TabIndex = 11;
+            this.panel3.TabIndex = 8;
             // 
             // Translate
             // 
@@ -80,7 +80,7 @@
             this.panel2.Location = new System.Drawing.Point(450, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(350, 450);
-            this.panel2.TabIndex = 10;
+            this.panel2.TabIndex = 7;
             // 
             // panel7
             // 
@@ -134,12 +134,12 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(350, 450);
-            this.panel1.TabIndex = 9;
+            this.panel1.TabIndex = 6;
             // 
             // panel5
             // 
-            this.panel5.Controls.Add(this.InputKode);
             this.panel5.Controls.Add(this.InputText);
+            this.panel5.Controls.Add(this.InputNumre);
             this.panel5.Controls.Add(this.textInput);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel5.Location = new System.Drawing.Point(0, 70);
@@ -147,27 +147,27 @@
             this.panel5.Size = new System.Drawing.Size(350, 380);
             this.panel5.TabIndex = 3;
             // 
-            // InputKode
-            // 
-            this.InputKode.AutoSize = true;
-            this.InputKode.Location = new System.Drawing.Point(116, 118);
-            this.InputKode.Name = "InputKode";
-            this.InputKode.Size = new System.Drawing.Size(63, 21);
-            this.InputKode.TabIndex = 3;
-            this.InputKode.Text = "Kode";
-            this.InputKode.UseVisualStyleBackColor = true;
-            this.InputKode.CheckedChanged += new System.EventHandler(this.InputKode_CheckedChanged);
-            // 
             // InputText
             // 
             this.InputText.AutoSize = true;
-            this.InputText.Location = new System.Drawing.Point(13, 118);
+            this.InputText.Location = new System.Drawing.Point(116, 118);
             this.InputText.Name = "InputText";
             this.InputText.Size = new System.Drawing.Size(57, 21);
-            this.InputText.TabIndex = 2;
+            this.InputText.TabIndex = 3;
             this.InputText.Text = "Text";
             this.InputText.UseVisualStyleBackColor = true;
             this.InputText.CheckedChanged += new System.EventHandler(this.InputText_CheckedChanged);
+            // 
+            // InputNumre
+            // 
+            this.InputNumre.AutoSize = true;
+            this.InputNumre.Location = new System.Drawing.Point(13, 118);
+            this.InputNumre.Name = "InputNumre";
+            this.InputNumre.Size = new System.Drawing.Size(72, 21);
+            this.InputNumre.TabIndex = 2;
+            this.InputNumre.Text = "Numre";
+            this.InputNumre.UseVisualStyleBackColor = true;
+            this.InputNumre.CheckedChanged += new System.EventHandler(this.InputNumre_CheckedChanged);
             // 
             // textInput
             // 
@@ -201,7 +201,7 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Input";
             // 
-            // A_K
+            // NummerKode
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -209,8 +209,8 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Name = "A_K";
-            this.Text = "A-K";
+            this.Name = "NummerKode";
+            this.Text = "Nummer kode";
             this.panel3.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
@@ -238,8 +238,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.CheckBox InputKode;
         private System.Windows.Forms.CheckBox InputText;
+        private System.Windows.Forms.CheckBox InputNumre;
         private System.Windows.Forms.TextBox textInput;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label1;

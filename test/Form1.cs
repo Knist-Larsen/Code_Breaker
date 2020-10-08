@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace test
@@ -49,9 +43,9 @@ namespace test
                     currentButton = (Button)btnSender;
                     currentButton.BackColor = color;
                     currentButton.ForeColor = Color.White;
-                    currentButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.5F, 
-                                                                  System.Drawing.FontStyle.Regular, 
-                                                                  System.Drawing.GraphicsUnit.Point, 
+                    currentButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.5F,
+                                                                  System.Drawing.FontStyle.Regular,
+                                                                  System.Drawing.GraphicsUnit.Point,
                                                                   ((byte)(0)));
                     panelTitelBar.BackColor = color;
                     panelLogo.BackColor = ThemeColor.ChangeColorBrightness(color, -0.3);
@@ -65,7 +59,7 @@ namespace test
         {
             foreach (Control previousBtn in panelMenu.Controls)
             {
-                if (previousBtn.GetType()==typeof(Button))
+                if (previousBtn.GetType() == typeof(Button))
                 {
                     previousBtn.BackColor = Color.FromArgb(51, 51, 76);
                     previousBtn.ForeColor = Color.Gainsboro;
@@ -117,7 +111,7 @@ namespace test
 
         private void btnSMS_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Forms.SMS(), sender);
+            OpenChildForm(new Forms.NummerKode(), sender);
         }
 
         private void btnBukstavsKode_Click_1(object sender, EventArgs e)

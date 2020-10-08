@@ -1,19 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace test.Forms
 {
     public partial class FormMorse : Form
     {
-        string FejlText = "Fejl. Tjek dinne input";
-
         public FormMorse()
         {
             InitializeComponent();
@@ -55,11 +46,11 @@ namespace test.Forms
             }
             if (InputText.Checked == true && InputMorse.Checked == true)
             {
-                textBox3.Text = FejlText;
+                MessageBox.Show("Du må kun have ét input");
             }
             if (InputText.Checked == false && InputMorse.Checked == false)
             {
-                textBox3.Text = FejlText;
+                MessageBox.Show("Du skal have ét input");
             }
         }
 
@@ -133,7 +124,7 @@ namespace test.Forms
             text = text.Replace(".----/", "1");
             text = text.Replace("-..../", "6");
             text = text.Replace("--.../", "7");
-            text = text.Replace("---../", "8");         
+            text = text.Replace("---../", "8");
             text = text.Replace("-----/", "0");
             text = text.Replace("----./", "9");
             text = text.Replace("----/", "ch");

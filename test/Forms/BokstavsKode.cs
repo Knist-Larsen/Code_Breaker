@@ -1,11 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace test.Forms
@@ -73,11 +67,11 @@ namespace test.Forms
             }
             if (checkFraKode.Checked == true && checkTilKode.Checked == true)
             {
-                OutputTextBox.Text = "Du må kun krydse af i én checkbox";
+                MessageBox.Show("Du må kun krydse af i én checkbox");
             }
             if (checkFraKode.Checked == false && checkTilKode.Checked == false)
             {
-                OutputTextBox.Text = "Du skal krydse af i én af checkboxene";
+                MessageBox.Show("Du skal krydse af i én af checkboxene");
             }
         }
 
@@ -85,7 +79,7 @@ namespace test.Forms
         {
             string output = "";
 
-            List<char> alfabet = new List<char> { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 
+            List<char> alfabet = new List<char> { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k',
                 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'æ', 'ø', 'å' };
 
             int forskydning = alfabet.IndexOf(startBogstav);
@@ -143,6 +137,6 @@ namespace test.Forms
             }
             return output;
         }
-        
+
     }
 }

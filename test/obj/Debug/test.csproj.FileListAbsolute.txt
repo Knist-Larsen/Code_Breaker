@@ -27,3 +27,4 @@ C:\Users\nickl\Documents\GitHub\Code_Breaker\test\obj\Debug\test.csproj.CoreComp
 C:\Users\nickl\Documents\GitHub\Code_Breaker\test\obj\Debug\test.exe
 C:\Users\nickl\Documents\GitHub\Code_Breaker\test\obj\Debug\test.pdb
 C:\Users\nickl\Documents\GitHub\Code_Breaker\test\obj\Debug\test.Forms.NummerKode.resources
+C:\Users\nickl\Documents\GitHub\Code_Breaker\test\obj\Debug\test.Forms.Frimur.resources

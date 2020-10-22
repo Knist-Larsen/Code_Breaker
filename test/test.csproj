@@ -103,6 +103,9 @@
     <EmbeddedResource Include="Forms\FormMorse.resx">
       <DependentUpon>FormMorse.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frimur.resx">
+      <DependentUpon>Frimur.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Runes.resx">
       <DependentUpon>Runes.cs</DependentUpon>
     </EmbeddedResource>

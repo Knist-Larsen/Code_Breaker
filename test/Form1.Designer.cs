@@ -58,8 +58,9 @@
             this.panelMenu.Controls.Add(this.panelLogo);
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
+            this.panelMenu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(220, 460);
+            this.panelMenu.Size = new System.Drawing.Size(165, 374);
             this.panelMenu.TabIndex = 0;
             // 
             // btnBukstavsKode
@@ -71,10 +72,11 @@
             this.btnBukstavsKode.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnBukstavsKode.Image = ((System.Drawing.Image)(resources.GetObject("btnBukstavsKode.Image")));
             this.btnBukstavsKode.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBukstavsKode.Location = new System.Drawing.Point(0, 380);
+            this.btnBukstavsKode.Location = new System.Drawing.Point(0, 310);
+            this.btnBukstavsKode.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnBukstavsKode.Name = "btnBukstavsKode";
-            this.btnBukstavsKode.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
-            this.btnBukstavsKode.Size = new System.Drawing.Size(220, 60);
+            this.btnBukstavsKode.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
+            this.btnBukstavsKode.Size = new System.Drawing.Size(165, 49);
             this.btnBukstavsKode.TabIndex = 5;
             this.btnBukstavsKode.Text = "  Bogstavs Kode";
             this.btnBukstavsKode.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -91,10 +93,11 @@
             this.btnSMS.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnSMS.Image = ((System.Drawing.Image)(resources.GetObject("btnSMS.Image")));
             this.btnSMS.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSMS.Location = new System.Drawing.Point(0, 320);
+            this.btnSMS.Location = new System.Drawing.Point(0, 261);
+            this.btnSMS.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSMS.Name = "btnSMS";
-            this.btnSMS.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
-            this.btnSMS.Size = new System.Drawing.Size(220, 60);
+            this.btnSMS.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
+            this.btnSMS.Size = new System.Drawing.Size(165, 49);
             this.btnSMS.TabIndex = 4;
             this.btnSMS.Text = "  Nummer kode";
             this.btnSMS.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -111,12 +114,13 @@
             this.btnFrimur.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnFrimur.Image = ((System.Drawing.Image)(resources.GetObject("btnFrimur.Image")));
             this.btnFrimur.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnFrimur.Location = new System.Drawing.Point(0, 260);
+            this.btnFrimur.Location = new System.Drawing.Point(0, 212);
+            this.btnFrimur.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnFrimur.Name = "btnFrimur";
-            this.btnFrimur.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
-            this.btnFrimur.Size = new System.Drawing.Size(220, 60);
+            this.btnFrimur.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
+            this.btnFrimur.Size = new System.Drawing.Size(165, 49);
             this.btnFrimur.TabIndex = 3;
-            this.btnFrimur.Text = "  Frimur";
+            this.btnFrimur.Text = "  _Blank_//";
             this.btnFrimur.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnFrimur.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnFrimur.UseVisualStyleBackColor = true;
@@ -131,12 +135,13 @@
             this.btnRuner.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnRuner.Image = ((System.Drawing.Image)(resources.GetObject("btnRuner.Image")));
             this.btnRuner.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRuner.Location = new System.Drawing.Point(0, 200);
+            this.btnRuner.Location = new System.Drawing.Point(0, 163);
+            this.btnRuner.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnRuner.Name = "btnRuner";
-            this.btnRuner.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
-            this.btnRuner.Size = new System.Drawing.Size(220, 60);
+            this.btnRuner.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
+            this.btnRuner.Size = new System.Drawing.Size(165, 49);
             this.btnRuner.TabIndex = 2;
-            this.btnRuner.Text = "  Runer";
+            this.btnRuner.Text = "  Fylder";
             this.btnRuner.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRuner.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnRuner.UseVisualStyleBackColor = true;
@@ -151,10 +156,11 @@
             this.btnAK.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnAK.Image = ((System.Drawing.Image)(resources.GetObject("btnAK.Image")));
             this.btnAK.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAK.Location = new System.Drawing.Point(0, 140);
+            this.btnAK.Location = new System.Drawing.Point(0, 114);
+            this.btnAK.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAK.Name = "btnAK";
-            this.btnAK.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
-            this.btnAK.Size = new System.Drawing.Size(220, 60);
+            this.btnAK.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
+            this.btnAK.Size = new System.Drawing.Size(165, 49);
             this.btnAK.TabIndex = 1;
             this.btnAK.Text = "  A-K kode";
             this.btnAK.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -171,10 +177,11 @@
             this.btnMorse.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnMorse.Image = ((System.Drawing.Image)(resources.GetObject("btnMorse.Image")));
             this.btnMorse.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnMorse.Location = new System.Drawing.Point(0, 80);
+            this.btnMorse.Location = new System.Drawing.Point(0, 65);
+            this.btnMorse.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnMorse.Name = "btnMorse";
-            this.btnMorse.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
-            this.btnMorse.Size = new System.Drawing.Size(220, 60);
+            this.btnMorse.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
+            this.btnMorse.Size = new System.Drawing.Size(165, 49);
             this.btnMorse.TabIndex = 0;
             this.btnMorse.Text = "  Morse";
             this.btnMorse.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -188,8 +195,9 @@
             this.panelLogo.Controls.Add(this.label1);
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
+            this.panelLogo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(220, 80);
+            this.panelLogo.Size = new System.Drawing.Size(165, 65);
             this.panelLogo.TabIndex = 0;
             // 
             // label1
@@ -198,9 +206,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.LightGray;
-            this.label1.Location = new System.Drawing.Point(21, 30);
+            this.label1.Location = new System.Drawing.Point(16, 24);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(173, 25);
+            this.label1.Size = new System.Drawing.Size(137, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Nicklas\' Kodeløser";
             // 
@@ -209,9 +218,10 @@
             this.panelTitelBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(136)))));
             this.panelTitelBar.Controls.Add(this.lblTitel);
             this.panelTitelBar.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelTitelBar.Location = new System.Drawing.Point(220, 0);
+            this.panelTitelBar.Location = new System.Drawing.Point(165, 0);
+            this.panelTitelBar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelTitelBar.Name = "panelTitelBar";
-            this.panelTitelBar.Size = new System.Drawing.Size(800, 80);
+            this.panelTitelBar.Size = new System.Drawing.Size(600, 65);
             this.panelTitelBar.TabIndex = 1;
             // 
             // lblTitel
@@ -220,28 +230,31 @@
             this.lblTitel.AutoSize = true;
             this.lblTitel.Font = new System.Drawing.Font("Jokerman", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitel.ForeColor = System.Drawing.Color.White;
-            this.lblTitel.Location = new System.Drawing.Point(352, 20);
+            this.lblTitel.Location = new System.Drawing.Point(264, 16);
+            this.lblTitel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTitel.Name = "lblTitel";
-            this.lblTitel.Size = new System.Drawing.Size(93, 39);
+            this.lblTitel.Size = new System.Drawing.Size(78, 33);
             this.lblTitel.TabIndex = 0;
             this.lblTitel.Text = "HJEM";
             // 
             // panelDesktopPane
             // 
             this.panelDesktopPane.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelDesktopPane.Location = new System.Drawing.Point(220, 80);
+            this.panelDesktopPane.Location = new System.Drawing.Point(165, 65);
+            this.panelDesktopPane.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelDesktopPane.Name = "panelDesktopPane";
-            this.panelDesktopPane.Size = new System.Drawing.Size(800, 380);
+            this.panelDesktopPane.Size = new System.Drawing.Size(600, 309);
             this.panelDesktopPane.TabIndex = 2;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1020, 460);
+            this.ClientSize = new System.Drawing.Size(765, 374);
             this.Controls.Add(this.panelDesktopPane);
             this.Controls.Add(this.panelTitelBar);
             this.Controls.Add(this.panelMenu);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.panelMenu.ResumeLayout(false);

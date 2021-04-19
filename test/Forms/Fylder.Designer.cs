@@ -1,6 +1,6 @@
 ﻿namespace test.Forms
 {
-    partial class Runes
+    partial class Fylder
     {
         /// <summary>
         /// Required designer variable.

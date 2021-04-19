@@ -76,11 +76,11 @@
     <Compile Include="Forms\Frimur.Designer.cs">
       <DependentUpon>Frimur.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Runes.cs">
+    <Compile Include="Forms\Fylder.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Runes.Designer.cs">
-      <DependentUpon>Runes.cs</DependentUpon>
+    <Compile Include="Forms\Fylder.Designer.cs">
+      <DependentUpon>Fylder.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Nummer.cs">
       <SubType>Form</SubType>
@@ -106,8 +106,8 @@
     <EmbeddedResource Include="Forms\Frimur.resx">
       <DependentUpon>Frimur.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Runes.resx">
-      <DependentUpon>Runes.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Fylder.resx">
+      <DependentUpon>Fylder.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Nummer.resx">
       <DependentUpon>Nummer.cs</DependentUpon>

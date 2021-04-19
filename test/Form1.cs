@@ -101,7 +101,7 @@ namespace test
 
         private void btnRuner_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Forms.Runes(), sender);
+            OpenChildForm(new Forms.Fylder(), sender);
         }
 
         private void btnFrimur_Click(object sender, EventArgs e)

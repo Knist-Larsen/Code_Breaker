@@ -43,10 +43,10 @@ namespace test
                     currentButton = (Button)btnSender;
                     currentButton.BackColor = color;
                     currentButton.ForeColor = Color.White;
-                    currentButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.5F,
-                                                                  System.Drawing.FontStyle.Regular,
-                                                                  System.Drawing.GraphicsUnit.Point,
-                                                                  ((byte)(0)));
+                    currentButton.Font = new Font("Microsoft Sans Serif", 12.5F,
+                                                    FontStyle.Regular, 
+                                                    GraphicsUnit.Point,
+                                                    0);
                     panelTitelBar.BackColor = color;
                     panelLogo.BackColor = ThemeColor.ChangeColorBrightness(color, -0.3);
                     ThemeColor.PrimaryColor = color;
@@ -63,10 +63,11 @@ namespace test
                 {
                     previousBtn.BackColor = Color.FromArgb(51, 51, 76);
                     previousBtn.ForeColor = Color.Gainsboro;
-                    previousBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F,
-                                                                  System.Drawing.FontStyle.Regular,
-                                                                  System.Drawing.GraphicsUnit.Point,
-                                                                  ((byte)(0)));
+                    previousBtn.Font = new Font("Microsoft Sans Serif", 
+                                                10F, 
+                                                FontStyle.Regular, 
+                                                GraphicsUnit.Point, 
+                                                0);
                 }
             }
         }
@@ -89,32 +90,22 @@ namespace test
             lblTitel.Text = childform.Text;
         }
 
-        private void btnMorse_Click(object sender, EventArgs e)
+        private void btnMorse_Click(object sender, EventArgs e) // MorseBtn
         {
             OpenChildForm(new Forms.FormMorse(), sender);
         }
 
-        private void btnBukstavsKode_Click(object sender, EventArgs e) //btnAK
+        private void btnBukstavsKode_Click(object sender, EventArgs e) // A-KkodeBtn
         {
             OpenChildForm(new Forms.A_K(), sender);
         }
 
-        private void btnRuner_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new Forms.Fylder(), sender);
-        }
-
-        private void btnFrimur_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new Forms.Frimur(), sender);
-        }
-
-        private void btnSMS_Click(object sender, EventArgs e)
+        private void btnSMS_Click(object sender, EventArgs e) // NummerkodeBtn
         {
             OpenChildForm(new Forms.NummerKode(), sender);
         }
 
-        private void btnBukstavsKode_Click_1(object sender, EventArgs e)
+        private void btnBukstavsKode_Click_1(object sender, EventArgs e) // BogstavskodeBtn
         {
             OpenChildForm(new Forms.BogstavsKode(), sender);
         }

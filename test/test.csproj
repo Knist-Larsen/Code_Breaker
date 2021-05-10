@@ -70,18 +70,6 @@
     <Compile Include="Forms\FormMorse.Designer.cs">
       <DependentUpon>FormMorse.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Frimur.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Frimur.Designer.cs">
-      <DependentUpon>Frimur.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Fylder.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Fylder.Designer.cs">
-      <DependentUpon>Fylder.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\Nummer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,12 +90,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormMorse.resx">
       <DependentUpon>FormMorse.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Frimur.resx">
-      <DependentUpon>Frimur.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Fylder.resx">
-      <DependentUpon>Fylder.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Nummer.resx">
       <DependentUpon>Nummer.cs</DependentUpon>

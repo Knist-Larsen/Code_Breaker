@@ -42,3 +42,7 @@ C:\Users\nickl\OneDrive\Dokumenter\GitHub\Code_Breaker\test\obj\Debug\test.cspro
 C:\Users\nickl\OneDrive\Dokumenter\GitHub\Code_Breaker\test\obj\Debug\test.csproj.CoreCompileInputs.cache
 C:\Users\nickl\OneDrive\Dokumenter\GitHub\Code_Breaker\test\obj\Debug\test.exe
 C:\Users\nickl\OneDrive\Dokumenter\GitHub\Code_Breaker\test\obj\Debug\test.pdb
+C:\Users\nickl\OneDrive\Dokumenter\GitHub\Code_Breaker\test\bin\Debug\test.exe.manifest
+C:\Users\nickl\OneDrive\Dokumenter\GitHub\Code_Breaker\test\bin\Debug\test.application
+C:\Users\nickl\OneDrive\Dokumenter\GitHub\Code_Breaker\test\obj\Debug\test.exe.manifest
+C:\Users\nickl\OneDrive\Dokumenter\GitHub\Code_Breaker\test\obj\Debug\test.application
